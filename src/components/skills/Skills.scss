@@ -1,0 +1,101 @@
+$tile-color: rgba(0, 0, 0, 0.12);
+$overlay: rgba(0, 0, 0, 0.4);
+$transition-speed: 1.5s;
+
+.tech-stack-wrapper,
+.tool-stack-wrapper {
+  margin-left: 0;
+  margin-right: 0;
+}
+.tech-stack-title,
+.tool-stack-title {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 3rem;
+}
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 0 5px 4px 3px $tile-color;
+  overflow: hidden !important;
+  transition: transform $transition-speed;
+  -webkit-transition: transform $transition-speed;
+  cursor: pointer;
+  .tile-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: $overlay;
+
+    .hover-text {
+      position: absolute;
+      text-transform: uppercase;
+      max-width: 70%;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      top: 50%;
+      z-index: 4;
+      color: #fff;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding: 20px 30px;
+      border-radius: 8px;
+      background: $overlay;
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+}
+
+.tech-icons:hover {
+  overflow: hidden !important;
+  svg {
+    transform: translateZ(0) scale(1.15);
+    transition: transform $transition-speed;
+    -webkit-transition: transform $transition-speed;
+  }
+  .tile-overlay {
+    display: block;
+  }
+}
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}
+
+.quote-card-view {
+  border: none !important;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.about-activity {
+  list-style: none !important;
+  text-align: left !important;
+  padding-left: 1px !important;
+}
+
+@media (max-width: 767px) {
+  .about-img {
+    padding-top: 0 !important;
+  }
+}
