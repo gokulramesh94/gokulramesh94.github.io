@@ -17,6 +17,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Lato", sans-serif;
   font-weight: 400;
+  background-color: $theme-primary-dark !important;
+  color: $theme-light-grey;
 }
 
 code {
@@ -106,6 +108,8 @@ code {
 }
 
 .card {
+  height: 90%;
+  background-color: $theme-card !important;
   transition: transform 0.3s, box-shadow 0.3s;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   border: 0 !important;
@@ -115,13 +119,28 @@ code {
     transition: transform 0.3s, box-shadow 0.3s;
   }
   .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     .card-title {
       text-transform: capitalize;
       font-weight: bold;
+      color: $theme-white;
     }
     .techstack-wrapper {
       margin: 20px 0;
-      color: #707070;
+      color: $theme-grey;
+    }
+    a.btn.btn-outline-secondary {
+      border-color: $theme-primary-blue;
+      color: $theme-white;
+      &:hover {
+        background-color: $theme-primary-blue;
+        color: $theme-white;
+      }
+    }
+    .card-footer-section {
+      margin-top: 1rem;
     }
   }
 }
@@ -147,6 +166,7 @@ code {
 }
 
 #aboutme {
+  background-color: $theme-primary-dark !important;
   .profilepicture {
     width: 100%;
     height: auto;

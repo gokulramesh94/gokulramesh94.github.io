@@ -1,15 +1,18 @@
-$theme-purple: #50507f;
-$theme-purple-light: #9393cc;
-$mobile: 670px;
+@import "../../scss/variables";
+
+$theme-purple: $theme-primary-blue;
+$theme-purple-light: #45c0f9;
 
 #contact {
-  color: #444;
-  min-height: calc(100vh - 60px - 6rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $theme-light-grey;
+  min-height: calc(100vh - 60px);
   .navbar {
-    background-color: #212038d8 !important;
+    background-color: $theme-card !important;
   }
   .top-bar {
-    margin-top: 6rem;
     width: 75%;
     max-width: 1140px;
     margin-right: auto;
@@ -20,8 +23,8 @@ $mobile: 670px;
     }
   }
   .connect-container {
+    position: relative;
     width: 75%;
-    min-height: calc(100vh - 260px);
     font-size: 24px;
 
     .connect-section {
@@ -60,9 +63,12 @@ $mobile: 670px;
 
 @media screen and (max-width: $mobile) {
   #contact {
+    .top-bar {
+      margin: 0;
+      padding: 0 40px;
+    }
     .connect-container {
       width: 100%;
-      min-height: calc(100vh - 240px);
       padding: 0 40px;
       font-size: 18px;
     }

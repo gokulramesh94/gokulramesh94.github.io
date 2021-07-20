@@ -52,14 +52,9 @@ const about = {
   imageLink: ProfilePic,
   imageSize: 375,
   message:
-    "My name is Gokul. I’m currently enrolled in a four semeter graduate certificate program at Conestoga College(Waterloo Campus), Ontario, Canada. I have a Batchelors degree in Information Technology. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "My name is Gokul. I’m currently enrolled in a four semeter graduate certificate program at Conestoga College(Waterloo Campus), ON - Canada. I have a Batchelors degree in Information Technology. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
 };
 
-// PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
   heading: "Recent Projects",

@@ -1,6 +1,9 @@
+@import "../../scss/variables";
+
 #projects {
+  background-color: $theme-primary-dark;
   .navbar {
-    background-color: #212038d8 !important;
+    background-color: $theme-card !important;
   }
   .projects-wrapper {
     padding: 4rem 0;
@@ -10,6 +13,7 @@
       font-weight: bold;
     }
     .filter-wrapper {
+      position: relative;
       margin-bottom: 1rem;
       .filters {
         display: flex;
@@ -30,17 +34,23 @@
           margin: 10px 20px 10px 20px;
 
           span {
-            color: #50507f;
+            color: $theme-primary-blue;
           }
           &:hover {
             cursor: pointer;
-            border-bottom: 1px solid #6c6c9c;
+            border-bottom: 1px solid $theme-primary-blue;
           }
           &.active {
-            border-bottom: 1px solid #6c6c9c;
+            border-bottom: 1px solid $theme-primary-blue;
           }
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  #projects {
+    padding: 36px;
   }
 }

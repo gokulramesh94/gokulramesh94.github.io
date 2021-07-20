@@ -36,7 +36,7 @@ const Project = () => {
   };
   return (
     <div>
-      <Jumbotron fluid id="projects" className="bg-light m-0">
+      <Jumbotron fluid id="projects" className="m-0">
         <NavBar />
         <Container className="projects-wrapper">
           <div className="heading">My Work</div>

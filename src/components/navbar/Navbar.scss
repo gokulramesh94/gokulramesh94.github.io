@@ -1,8 +1,10 @@
+@import "../../scss/variables";
+
 /* --------- */
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #212038d8 !important;
+  background-color: $theme-card !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -24,7 +26,7 @@
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #fff !important;
+  background-color: $theme-white !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -69,16 +71,19 @@
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
+    padding: 1rem 1rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: $theme-card !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
+  .navbar-toggler span {
+    height: 2px !important;
+  }
 }
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: $theme-white !important;
 }
 
 .logo {
@@ -87,7 +92,7 @@
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: $theme-white !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -121,7 +126,7 @@
   height: 1px;
   width: 0;
   border-radius: 16px;
-  background: #fff;
+  background: $theme-white;
   bottom: -3px;
   left: 0;
   z-index: -1;
