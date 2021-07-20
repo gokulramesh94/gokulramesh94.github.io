@@ -173,8 +173,8 @@ const toolStack = [
 const work = {
   FILTERS: {
     ALL: { NAME: "All", FILTER: "show-all" },
+    PROJECTS: { NAME: "Full Stack", FILTER: "projects" },
     CODEPEN: { NAME: "Codepen", FILTER: "codepen" },
-    PROJECTS: { NAME: "Projects", FILTER: "projects" },
   },
   PROJECTS: [
     {
@@ -256,14 +256,14 @@ const footer = {
       LINK: "https://github.com/gokulramesh94",
     },
     {
-      NAME: "Twitter",
-      COMPONENT: "AiOutlineTwitter",
-      LINK: "https://twitter.com/gokulramesh94",
-    },
-    {
       NAME: "Codepen",
       COMPONENT: "FaCodepen",
       LINK: "https://codepen.io/gokulramesh94",
+    },
+    {
+      NAME: "Twitter",
+      COMPONENT: "AiOutlineTwitter",
+      LINK: "https://twitter.com/gokulramesh94",
     },
     {
       NAME: "Linkedin",

@@ -1,18 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Filter = (props) => {
+const Filter = ({ activeFilter, data, onClick }) => {
   return (
     <div className="filter-wrapper">
       <ul className="filters">
-        {props.data.map((filter, index) => {
+        {data.map((filter, index) => {
           return (
             <li
               className={`filter ${
-                props.activeFilter === filter.FILTER ? "active" : ""
+                activeFilter === filter.FILTER ? "active" : ""
               }`}
               key={index}
-              onClick={() => props.onClick(filter.FILTER)}
+              onClick={() => onClick(filter.FILTER)}
             >
               <span>{filter.NAME}</span>
             </li>

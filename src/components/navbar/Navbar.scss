@@ -131,3 +131,7 @@
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
 }
+
+.navbar-nav .nav-item a.active::after {
+  width: 100%;
+}

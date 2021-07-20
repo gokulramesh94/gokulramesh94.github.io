@@ -147,11 +147,16 @@ code {
 }
 
 #aboutme {
-  .col-lg-7 {
+  .profilepicture {
+    width: 100%;
+    height: auto;
+  }
+  .col-lg-9 {
     display: flex;
     align-items: center;
     .about-message {
       line-height: 36px;
+      padding: 0 2rem;
     }
   }
 }
