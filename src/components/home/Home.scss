@@ -1,3 +1,5 @@
+@import "../../scss/variables";
+
 /* --------- */
 /* Home section */
 /* --------- */
@@ -57,16 +59,17 @@ $image-gradient: linear-gradient(
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: $image-gradient, url(../../assets/img/home-bg.jpg);
+  background-color: $theme-primary-dark;
+  //background-image: $image-gradient, url(../../assets/img/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -82,17 +85,17 @@ $image-gradient: linear-gradient(
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: $theme-primary-blue;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: $theme-primary-blue !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: $theme-primary-blue !important;
 }
 
 @media (max-width: 767px) {
@@ -125,7 +128,7 @@ $image-gradient: linear-gradient(
 }
 
 .home-about-description {
-  color: white !important;
+  color: $theme-white !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -135,58 +138,6 @@ $image-gradient: linear-gradient(
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
-}
-
-.home-about-social {
-  text-align: center !important;
-  padding-top: 25px;
-  color: white !important;
-}
-
-.home-about-social-links {
-  justify-content: center !important;
-  padding-top: 15px !important;
-  display: inline-block !important;
-  position: relative !important;
-  padding-inline-start: 0 !important;
-}
-
-.home-social-icons {
-  position: relative !important;
-  display: inline-block !important;
-  width: 40px !important;
-  height: 40px !important;
-  text-align: center !important;
-  font-size: 1.2em !important;
-  line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
-  border-radius: 50% !important;
-  transition: 0.5s !important;
-}
-
-.home-social-icons::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: #68187a;
-  transition: 0.5s;
-  transform: scale(0.9);
-  z-index: -1;
-}
-
-.home-social-icons:hover::before {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
-}
-
-.home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
 }
 
 .social-icons {

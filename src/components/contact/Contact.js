@@ -58,7 +58,10 @@ const Contact = () => {
               </a>
             </div>
             <div className="connect-social">
-              <a href="https://www.facebook.com/sandhyasubram/" target="blank">
+              <a
+                href="https://www.facebook.com/gokul.ramesh.73/"
+                target="blank"
+              >
                 <FaFacebookF />
               </a>
             </div>

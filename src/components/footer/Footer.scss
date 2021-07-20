@@ -1,5 +1,7 @@
+@import "../../scss/variables";
+
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: $theme-black;
   bottom: 0 !important;
   padding: 10px 0;
   .footer-row {
