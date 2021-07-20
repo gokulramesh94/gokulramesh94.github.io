@@ -11,17 +11,8 @@
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
-  font-size: 1.2rem !important;
-}
-
-#projects {
-  .navbar {
-    background-color: #212038d8 !important;
-  }
-  .projects-wrapper {
-    padding: 4rem 0;
-  }
+  padding: 0.5rem 2rem 0.8rem !important;
+  font-size: 1.05rem !important;
 }
 
 .navbar-toggler {
@@ -33,7 +24,7 @@
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #fff !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -127,11 +118,11 @@
   content: "";
   position: relative;
   display: block;
-  height: 5px;
+  height: 1px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
-  bottom: 1px;
+  background: #fff;
+  bottom: -3px;
   left: 0;
   z-index: -1;
   transition: all 0.3s ease-out 0s;

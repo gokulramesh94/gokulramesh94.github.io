@@ -1,5 +1,19 @@
 import ProfilePic from "./gokul.jpg";
 
+//projects gif
+import TecWorkshop from "../assets/img/projects/tec-workshop.gif";
+import Portfolio from "../assets/img/projects/sandhya-portfolio.gif";
+import CbeShopping from "../assets/img/projects/cbe-shopping.gif";
+
+//codepen gif
+import BabyKobe from "../assets/img/projects/baby-kobe.gif";
+import BurgerMenu from "../assets/img/projects/burger-menu.gif";
+import MinimalEnvelope from "../assets/img/projects/minimal-envelope-animation.gif";
+import PageTurn from "../assets/img/projects/page-turn-animation.gif";
+import SearchAnimation from "../assets/img/projects/search-animation.gif";
+import WalletAppAnimation from "../assets/img/projects/wallet-app-animation.gif";
+import WhimsicalMoodBoard from "../assets/img/projects/whimsical-mood-board.gif";
+
 // Home
 const home = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
@@ -32,20 +46,6 @@ const home = {
   ],
 };
 
-// ABOUT SECTION
-// If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "constants" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../constants/gokul.jpg"),
-//d) If you do not want any picture to be displayed, just leave it empty :)
-//      i.e: profilePictureLink: "",
-// For Resume either provide link to your resume or import from "constants" directory
-//     i.e resume: require("../constants/resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-
 const about = {
   show: true,
   heading: "About Me",
@@ -53,8 +53,6 @@ const about = {
   imageSize: 375,
   message:
     "My name is Gokul. I’m currently enrolled in a four semeter graduate certificate program at Conestoga College(Waterloo Campus), Ontario, Canada. I have a Batchelors degree in Information Technology. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume:
-    "https://drive.google.com/file/d/1wv2vJUqaG2ou-3JrNb2J6IfkjI6sdBAH/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -168,6 +166,112 @@ const toolStack = [
   },
 ];
 
-const projects = [];
+const work = {
+  FILTERS: {
+    ALL: { NAME: "All", FILTER: "show-all" },
+    CODEPEN: { NAME: "Codepen", FILTER: "codepen" },
+    PROJECTS: { NAME: "Projects", FILTER: "projects" },
+  },
+  PROJECTS: [
+    {
+      TITLE: "Tec Workshop",
+      SITE_URL: "https://tecworkshop.in/",
+      DESCRIPTION:
+        "Tec Workshop is a portfolio website developed using React. The UX was designed by TIKI TAVI. The website showcases the client's work.",
+      IMAGE: TecWorkshop,
+      TECH_STACK: ["React", "Sass", "Email JS"],
+    },
+    {
+      TITLE: "Portfolio",
+      REPO_URL: "https://github.com/sandhyasubram/sandhyasubram.backup",
+      DESCRIPTION:
+        "This is a portfolio website developed for Sandhya Subramanian to showcase her designs. She is a talented UX designer. You can check out the links in the repo to find her work.",
+      IMAGE: Portfolio,
+      TECH_STACK: ["React", "Sass", "GSAP"],
+    },
+    {
+      TITLE: "CBE Shopping",
+      REPO_URL: "https://github.com/diveethSivan/cbe-shopping",
+      DESCRIPTION:
+        "CBE Shopping is a based website devloped for the client to manage their operations. It is developed using React and Node JS. The database used is Mongo.",
+      IMAGE: CbeShopping,
+      TECH_STACK: ["React", "Sass", "Node JS", "Mongo"],
+    },
+  ],
+  CODEPEN: [
+    {
+      TITLE: "Page Turn Animation using Turn JS",
+      SITE_URL: "https://codepen.io/gokulramesh94/full/rNeMyop",
+      IMAGE: PageTurn,
+      TECH_STACK: ["JQuery", "GSAP", "Turn JS", "SCSS"],
+    },
+    {
+      TITLE: "Wallet App Animation",
+      SITE_URL: "https://codepen.io/gokulramesh94/full/RwrzJGr",
+      IMAGE: WalletAppAnimation,
+      TECH_STACK: ["JQuery", "GSAP", "SCSS"],
+    },
+    {
+      TITLE: "Minimal Envelope Animation",
+      SITE_URL: "https://codepen.io/gokulramesh94/full/WNrLoLG",
+      IMAGE: MinimalEnvelope,
+      TECH_STACK: ["JQuery", "GSAP", "SCSS"],
+    },
+    {
+      TITLE: "Whimsical mood board",
+      SITE_URL: "https://codepen.io/gokulramesh94/full/eYJVExY",
+      IMAGE: WhimsicalMoodBoard,
+      TECH_STACK: ["JQuery", "GSAP", "Swiper JS", "SCSS"],
+    },
+    {
+      TITLE: "Burger Menu Animation",
+      SITE_URL: "https://codepen.io/gokulramesh94/full/vYLboNL",
+      IMAGE: BurgerMenu,
+      TECH_STACK: ["JQuery", "GSAP", "SCSS"],
+    },
+    {
+      TITLE: "Minimal Search Animation",
+      SITE_URL: "https://codepen.io/gokulramesh94/full/ZEQNoYy",
+      IMAGE: SearchAnimation,
+      TECH_STACK: ["JQuery", "GSAP", "SCSS"],
+    },
+    {
+      TITLE: "Baby Kobe",
+      SITE_URL: "https://codepen.io/gokulramesh94/full/zYqGNmy",
+      IMAGE: BabyKobe,
+      TECH_STACK: ["JQuery", "GSAP", "SCSS"],
+    },
+  ],
+};
 
-export { home, about, repos, techStack, toolStack, projects };
+const footer = {
+  QUICK_LINKS: [
+    {
+      NAME: "Github",
+      COMPONENT: "AiFillGithub",
+      LINK: "https://github.com/gokulramesh94",
+    },
+    {
+      NAME: "Twitter",
+      COMPONENT: "AiOutlineTwitter",
+      LINK: "https://twitter.com/gokulramesh94",
+    },
+    {
+      NAME: "Codepen",
+      COMPONENT: "FaCodepen",
+      LINK: "https://codepen.io/gokulramesh94",
+    },
+    {
+      NAME: "Linkedin",
+      COMPONENT: "FaLinkedinIn",
+      LINK: "https://www.linkedin.com/in/gokulramesh94/",
+    },
+    {
+      NAME: "Instagram",
+      COMPONENT: "AiFillInstagram",
+      LINK: "https://www.instagram.com/the__high__tide/",
+    },
+  ],
+};
+
+export { home, about, repos, techStack, toolStack, work, footer };
