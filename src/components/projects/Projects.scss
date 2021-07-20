@@ -1,0 +1,46 @@
+#projects {
+  .navbar {
+    background-color: #212038d8 !important;
+  }
+  .projects-wrapper {
+    padding: 4rem 0;
+    .heading {
+      padding: 0 !important;
+      font-size: 1.5rem !important;
+      font-weight: bold;
+    }
+    .filter-wrapper {
+      margin-bottom: 1rem;
+      .filters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+        margin: 0;
+
+        li.filter {
+          list-style: none;
+          padding: 5px 0;
+          text-decoration: none;
+          font-size: 1rem;
+          letter-spacing: 1px;
+          font-weight: bold;
+          border-bottom: 1px solid transparent;
+          margin: 10px 20px 10px 20px;
+
+          span {
+            color: #50507f;
+          }
+          &:hover {
+            cursor: pointer;
+            border-bottom: 1px solid #6c6c9c;
+          }
+          &.active {
+            border-bottom: 1px solid #6c6c9c;
+          }
+        }
+      }
+    }
+  }
+}
