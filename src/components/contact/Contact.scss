@@ -1,0 +1,70 @@
+$theme-purple: #50507f;
+$theme-purple-light: #9393cc;
+$mobile: 670px;
+
+#contact {
+  color: #444;
+  min-height: calc(100vh - 60px - 6rem);
+  .navbar {
+    background-color: #212038d8 !important;
+  }
+  .top-bar {
+    margin-top: 6rem;
+    width: 75%;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+    .heading {
+      padding-left: 0 !important;
+    }
+  }
+  .connect-container {
+    width: 75%;
+    min-height: calc(100vh - 260px);
+    font-size: 24px;
+
+    .connect-section {
+      margin-bottom: 1.5em;
+
+      &:first-child {
+        margin-top: 1em;
+      }
+    }
+
+    .connect-links {
+      display: flex;
+    }
+
+    .connect-label {
+      font-size: 0.9em;
+    }
+
+    .connect-social {
+      font-size: 2em;
+      padding: 0 0.6em;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      a {
+        color: $theme-purple;
+        &:hover {
+          color: $theme-purple-light;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  #contact {
+    .connect-container {
+      width: 100%;
+      min-height: calc(100vh - 240px);
+      padding: 0 40px;
+      font-size: 18px;
+    }
+  }
+}

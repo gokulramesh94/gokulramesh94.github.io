@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Row from "react-bootstrap/Row";
+import NavBar from "../navbar/Navbar";
 import ProjectCard from "./ProjectCard";
 import Filter from "./Filter";
-import NavBar from "../navbar/Navbar";
 import { work } from "../../constants/config";
 import "./Projects.scss";
 
@@ -12,22 +12,24 @@ const Project = () => {
   const [projects, setProjects] = useState([]);
   const [activeFilter, setActiveFilter] = useState("show-all");
 
+  const { CODEPEN, PROJECTS, FILTERS } = work;
+
   useEffect(() => {
     var data = [];
-    data = [...work.PROJECTS];
-    data = [...data, ...work.CODEPEN];
+    data = [...PROJECTS];
+    data = [...data, ...CODEPEN];
     setProjects(data);
-  }, []);
+  }, [PROJECTS, CODEPEN]);
 
   const applyFilter = (filter) => {
     var data = [];
-    if (filter === work.FILTERS.CODEPEN.FILTER) {
-      data = [...work.CODEPEN];
-    } else if (filter === work.FILTERS.PROJECTS.FILTER) {
-      data = [...work.PROJECTS];
+    if (filter === FILTERS.CODEPEN.FILTER) {
+      data = [...CODEPEN];
+    } else if (filter === FILTERS.PROJECTS.FILTER) {
+      data = [...PROJECTS];
     } else {
-      data = [...work.PROJECTS];
-      data = [...data, ...work.CODEPEN];
+      data = [...PROJECTS];
+      data = [...data, ...CODEPEN];
     }
     setProjects(data);
     setActiveFilter(filter);
@@ -39,7 +41,7 @@ const Project = () => {
         <Container className="projects-wrapper">
           <div className="heading">My Work</div>
           <Filter
-            data={Object.values(work.FILTERS)}
+            data={Object.values(FILTERS)}
             activeFilter={activeFilter}
             onClick={(filter) => applyFilter(filter)}
           />

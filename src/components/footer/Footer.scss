@@ -25,9 +25,12 @@
 
 @media (max-width: 767px) {
   .footer {
+    padding: 2rem;
     .footer-row {
+      margin: 0;
       .footer-copywright {
         text-align: center !important;
+        margin-bottom: 1rem;
       }
       .footer-body {
         text-align: center !important;

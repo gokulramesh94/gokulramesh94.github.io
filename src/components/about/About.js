@@ -11,9 +11,9 @@ const About = () => {
     <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid">
         <div className="row">
-          <div className="col-5 d-none d-lg-block align-self-center">
+          <div className="col-3 d-none d-lg-block align-self-center">
             <img
-              className="border rounded-circle"
+              className="profilepicture border rounded-circle"
               src={link}
               alt="profilepicture"
               width={imgSize}
@@ -21,7 +21,7 @@ const About = () => {
             />
           </div>
 
-          <div className={`col-lg-7`}>
+          <div className={`col-lg-9`}>
             {/* <h2 className="display-4 mb-5 text-center">{heading}</h2> */}
             <p className="lead about-message">{message}</p>
           </div>
