@@ -153,6 +153,10 @@ const toolStack = [
     COMPONENT: "FaJira",
   },
   {
+    NAME: "Trello",
+    COMPONENT: "CgTrello",
+  },
+  {
     NAME: "Bitbucket",
     COMPONENT: "DiBitbucket",
   },
