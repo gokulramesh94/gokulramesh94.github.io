@@ -9,7 +9,11 @@ const ProjectCard = ({ project }) => {
   return (
     <Col md={4}>
       <Card className="card mb-5 bg-white rounded">
-        <Image source={IMAGE} altText={TITLE} />
+        {IMAGE ? (
+          <Image source={IMAGE} altText={TITLE} />
+        ) : (
+          <Image altText={TITLE} />
+        )}
         <Card.Body>
           <div>
             <Card.Title as="h5">{TITLE || <Skeleton />} </Card.Title>

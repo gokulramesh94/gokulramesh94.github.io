@@ -1,7 +1,8 @@
 @import "../../scss/variables";
 
 .footer {
-  background-color: $theme-black;
+  position: relative;
+  background-color: $theme-card;
   bottom: 0 !important;
   padding: 10px 0;
   .footer-row {

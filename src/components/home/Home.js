@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../assets/svg/home-main.svg";
+import homeLogo from "../../assets/img/landing-page-design@2x.png";
 import About from "../about/About";
 import Skills from "../skills/Skills";
 import NavBar from "../navbar/Navbar";
@@ -24,12 +24,18 @@ function Home() {
                 <strong className="main-name"> Gokul</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div
+                style={{
+                  padding: "30px 50px",
+                  letterSpacing: 1.25,
+                  textAlign: "left",
+                }}
+              >
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5}>
               <img src={homeLogo} alt="home pic" className="img-fluid" />
             </Col>
           </Row>
