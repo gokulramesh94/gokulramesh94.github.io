@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Error from "../components/error/Error";
 import Contact from "../components/contact/Contact";
 import Home from "../components/home/Home";
@@ -11,7 +11,7 @@ import Strings from "../constants/Strings";
 
 const Routes = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Particle />
       <Switch>
         <Route path={Strings.ROUTES.HOME} exact component={Home} />
@@ -21,7 +21,7 @@ const Routes = () => {
         <Route path={Strings.ROUTES.ALL} component={Error} />
       </Switch>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

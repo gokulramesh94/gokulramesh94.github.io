@@ -52,15 +52,10 @@ $image-gradient: linear-gradient(
   height: 100%;
 }
 
-.home-header {
-  padding-top: 80px !important;
-}
-
 .home-section {
   position: relative;
   z-index: -1;
   background-color: $theme-primary-dark;
-  //background-image: $image-gradient, url(../../assets/img/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   height: 100vh;
@@ -80,8 +75,8 @@ $image-gradient: linear-gradient(
 }
 
 .heading-name {
-  font-size: 2.5em !important;
-  padding-left: 45px !important;
+  font-size: 3em !important;
+  padding-left: 50px !important;
 }
 
 .main-name {
@@ -98,7 +93,7 @@ $image-gradient: linear-gradient(
   color: $theme-primary-blue !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: $tab-small) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
@@ -107,6 +102,11 @@ $image-gradient: linear-gradient(
   .Typewriter__cursor {
     display: none !important;
   }
+  .home-content {
+    .home-header {
+      margin-bottom: 3rem;
+    }
+  }
 }
 
 .myAvtar {
@@ -114,7 +114,7 @@ $image-gradient: linear-gradient(
   padding-top: 9em !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: $tab-small) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;

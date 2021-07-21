@@ -52,7 +52,7 @@ const about = {
   imageLink: ProfilePic,
   imageSize: 375,
   message:
-    "My name is Gokul. I’m currently enrolled in a four semeter graduate certificate program at Conestoga College(Waterloo Campus), ON - Canada. I have a Batchelors degree in Information Technology. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "My name is Gokul. I’m currently enrolled in a four semeter graduate certificate program at Conestoga College(Waterloo Campus), ON - Canada. I have a Bachelors degree in Information Technology. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
 };
 
 const repos = {
@@ -184,7 +184,7 @@ const work = {
       TITLE: "Portfolio",
       REPO_URL: "https://github.com/sandhyasubram/sandhyasubram.backup",
       DESCRIPTION:
-        "This is a portfolio website developed for Sandhya Subramanian to showcase her designs. She is a talented UX designer. You can check out the links in the repo to find her work.",
+        "This is a portfolio website for Sandhya Subramaniyan. She is a UX designer who wanted to showcase her designs in the mobile and web with a minimal yet functional layout.",
       IMAGE: Portfolio,
       TECH_STACK: ["React", "Sass", "GSAP"],
     },
