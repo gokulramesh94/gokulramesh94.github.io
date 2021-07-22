@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.31cc971a.chunk.css",
-    "main.js": "/static/js/main.df40f4ef.chunk.js",
-    "main.js.map": "/static/js/main.df40f4ef.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a4776188.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a4776188.js.map",
-    "static/js/2.e75c1f5c.chunk.js": "/static/js/2.e75c1f5c.chunk.js",
-    "static/js/2.e75c1f5c.chunk.js.map": "/static/js/2.e75c1f5c.chunk.js.map",
+    "main.js": "/static/js/main.e28dd683.chunk.js",
+    "main.js.map": "/static/js/main.e28dd683.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.075142f7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.075142f7.js.map",
+    "static/js/2.5e90a703.chunk.js": "/static/js/2.5e90a703.chunk.js",
+    "static/js/2.5e90a703.chunk.js.map": "/static/js/2.5e90a703.chunk.js.map",
     "static/css/3.dc8b169c.chunk.css": "/static/css/3.dc8b169c.chunk.css",
-    "static/js/3.4bf1fdd8.chunk.js": "/static/js/3.4bf1fdd8.chunk.js",
-    "static/js/3.4bf1fdd8.chunk.js.map": "/static/js/3.4bf1fdd8.chunk.js.map",
+    "static/js/3.5e4b8cbc.chunk.js": "/static/js/3.5e4b8cbc.chunk.js",
+    "static/js/3.5e4b8cbc.chunk.js.map": "/static/js/3.5e4b8cbc.chunk.js.map",
     "static/js/4.34695135.chunk.js": "/static/js/4.34695135.chunk.js",
     "static/js/4.34695135.chunk.js.map": "/static/js/4.34695135.chunk.js.map",
     "index.html": "/index.html",
     "static/css/3.dc8b169c.chunk.css.map": "/static/css/3.dc8b169c.chunk.css.map",
     "static/css/main.31cc971a.chunk.css.map": "/static/css/main.31cc971a.chunk.css.map",
-    "static/js/2.e75c1f5c.chunk.js.LICENSE.txt": "/static/js/2.e75c1f5c.chunk.js.LICENSE.txt",
+    "static/js/2.5e90a703.chunk.js.LICENSE.txt": "/static/js/2.5e90a703.chunk.js.LICENSE.txt",
     "static/js/4.34695135.chunk.js.LICENSE.txt": "/static/js/4.34695135.chunk.js.LICENSE.txt",
     "static/media/404-error.9acb0289.jpg": "/static/media/404-error.9acb0289.jpg",
-    "static/media/Gokul-Resume.92223422.pdf": "/static/media/Gokul-Resume.92223422.pdf",
+    "static/media/Gokul-Resume.4f09badc.pdf": "/static/media/Gokul-Resume.4f09badc.pdf",
     "static/media/baby-kobe.c7dbdd33.gif": "/static/media/baby-kobe.c7dbdd33.gif",
     "static/media/burger-menu.3c38807c.gif": "/static/media/burger-menu.3c38807c.gif",
     "static/media/cbe-shopping.db547fcf.gif": "/static/media/cbe-shopping.db547fcf.gif",
@@ -40,9 +40,9 @@
     "static/media/whimsical-mood-board.91ca4d6a.gif": "/static/media/whimsical-mood-board.91ca4d6a.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.a4776188.js",
+    "static/js/runtime-main.075142f7.js",
     "static/js/4.34695135.chunk.js",
     "static/css/main.31cc971a.chunk.css",
-    "static/js/main.df40f4ef.chunk.js"
+    "static/js/main.e28dd683.chunk.js"
   ]
 }
