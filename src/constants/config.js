@@ -4,6 +4,11 @@ import ProfilePic from "./gokul.jpg";
 import TecWorkshop from "../assets/img/projects/tec-workshop.gif";
 import Portfolio from "../assets/img/projects/sandhya-portfolio.gif";
 import CbeShopping from "../assets/img/projects/cbe-shopping.gif";
+import TripZone from "../assets/img/projects/tripzone.gif";
+import Explorer from "../assets/img/projects/explorer.gif";
+import LittleBook from "../assets/img/projects/little-book.gif";
+import RedAndWhite from "../assets/img/projects/red-and-white.png";
+import StyleHub from "../assets/img/projects/stylehub.gif";
 
 //codepen gif
 import BabyKobe from "../assets/img/projects/baby-kobe.gif";
@@ -195,6 +200,42 @@ const work = {
         "CBE Shopping is a based website devloped for the client to manage their operations. It is developed using React and Node JS. The database used is Mongo.",
       IMAGE: CbeShopping,
       TECH_STACK: ["React", "Sass", "Node JS", "Mongo"],
+    },
+    {
+      TITLE: "Tripzone",
+      REPO_URL: "https://github.com/gokulramesh94/tripzone",
+      IMAGE: TripZone,
+      TECH_STACK: ["React"],
+    },
+    {
+      TITLE: "Little Book",
+      REPO_URL: "https://github.com/gokulramesh94/little-book",
+      IMAGE: LittleBook,
+      TECH_STACK: ["React"],
+    },
+    {
+      TITLE: "StyleHub",
+      REPO_URL: "https://github.com/gokulramesh94/stylehub",
+      IMAGE: StyleHub,
+      TECH_STACK: ["Vue"],
+    },
+    // {
+    //   TITLE: "CineFlix",
+    //   REPO_URL: "https://github.com/gokulramesh94/cineflix",
+    //   IMAGE: CineFlix,
+    //   TECH_STACK: ["React"],
+    // },
+    {
+      TITLE: "Explorer",
+      REPO_URL: "https://github.com/gokulramesh94/explorer",
+      IMAGE: Explorer,
+      TECH_STACK: ["React"],
+    },
+    {
+      TITLE: "Red And White",
+      REPO_URL: "https://github.com/gokulramesh94/red-and-white",
+      IMAGE: RedAndWhite,
+      TECH_STACK: ["React"],
     },
   ],
   CODEPEN: [

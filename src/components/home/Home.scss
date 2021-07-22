@@ -67,6 +67,9 @@ $image-gradient: linear-gradient(
 .home-content {
   color: whitesmoke;
   text-align: left;
+  .home-header {
+    align-self: flex-end;
+  }
 }
 
 .heading {
@@ -104,7 +107,7 @@ $image-gradient: linear-gradient(
   }
   .home-content {
     .home-header {
-      margin-bottom: 3rem;
+      margin-bottom: 5rem;
     }
   }
 }

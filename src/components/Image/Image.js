@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import ImageUnavailable from "../../assets/img/no-image-available.png";
-import Loader from "../../assets/img/image-loader.gif";
 import PropTypes from "prop-types";
-import { image } from "./Image.module.scss";
+import { image, loader, loaderWrapper } from "./Image.module.scss";
 
 const Image = ({ source, altText, fallbackImage }) => {
   const [load, setLoad] = useState(false);
@@ -18,7 +17,11 @@ const Image = ({ source, altText, fallbackImage }) => {
 
   return (
     <div>
-      {!load ? <img className={image} src={Loader} alt="Loading..." /> : null}
+      {!load ? (
+        <div className={loaderWrapper}>
+          <div className={loader}></div>
+        </div>
+      ) : null}
       <img
         className={image}
         src={source}
