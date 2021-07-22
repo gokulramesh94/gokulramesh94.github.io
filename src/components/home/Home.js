@@ -26,7 +26,7 @@ function Home() {
 
               <div
                 style={{
-                  padding: "30px 50px",
+                  padding: "30px 50px 0",
                   letterSpacing: 1.25,
                   textAlign: "left",
                 }}

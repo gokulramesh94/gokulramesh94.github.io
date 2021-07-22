@@ -7,7 +7,7 @@ import Skeleton from "react-loading-skeleton";
 const ProjectCard = ({ project }) => {
   const { TITLE, DESCRIPTION, SITE_URL, REPO_URL, IMAGE, TECH_STACK } = project;
   return (
-    <Col md={4}>
+    <Col md={6} lg={4}>
       <Card className="card mb-5 bg-white rounded">
         {IMAGE ? (
           <Image source={IMAGE} altText={TITLE} />
