@@ -1,12 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  DiJavascript1,
-  DiNodejs,
-  DiMongodb,
-  DiGit,
-  DiSass,
-} from "react-icons/di";
+import { DiJavascript1, DiNodejs, DiMongodb, DiSass } from "react-icons/di";
 import { FaBootstrap, FaJava, FaReact, FaVuejs } from "react-icons/fa";
 import {
   SiCsharp,
@@ -15,6 +9,7 @@ import {
   SiJquery,
   SiMysql,
   SiSwift,
+  SiTypescript,
 } from "react-icons/si";
 import { techStack } from "../../constants/config";
 
@@ -23,7 +18,6 @@ const Techstack = () => {
     DiJavascript1,
     DiNodejs,
     DiMongodb,
-    DiGit,
     DiSass,
     FaBootstrap,
     FaJava,
@@ -35,6 +29,7 @@ const Techstack = () => {
     SiJquery,
     SiMysql,
     SiSwift,
+    SiTypescript,
   };
 
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgTrello } from "react-icons/cg";
-import { DiBitbucket } from "react-icons/di";
+import { DiBitbucket, DiGit } from "react-icons/di";
 import { FaJira } from "react-icons/fa";
 import {
   SiEclipseide,
@@ -17,6 +17,7 @@ const Toolstack = () => {
   const components = {
     CgTrello,
     DiBitbucket,
+    DiGit,
     FaJira,
     SiEclipseide,
     SiLinux,

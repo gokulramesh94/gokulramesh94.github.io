@@ -74,6 +74,10 @@ const techStack = [
     COMPONENT: "DiJavascript1",
   },
   {
+    NAME: "Typescript",
+    COMPONENT: "SiTypescript",
+  },
+  {
     NAME: "Bootstrap",
     COMPONENT: "FaBootstrap",
   },
@@ -122,10 +126,6 @@ const techStack = [
     COMPONENT: "DiMongodb",
   },
   {
-    NAME: "Git",
-    COMPONENT: "DiGit",
-  },
-  {
     NAME: "Firebase",
     COMPONENT: "SiFirebase",
   },
@@ -155,6 +155,10 @@ const toolStack = [
   {
     NAME: "Trello",
     COMPONENT: "CgTrello",
+  },
+  {
+    NAME: "Git",
+    COMPONENT: "DiGit",
   },
   {
     NAME: "Bitbucket",
