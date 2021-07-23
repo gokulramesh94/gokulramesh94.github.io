@@ -57,7 +57,7 @@ const about = {
   imageLink: ProfilePic,
   imageSize: 375,
   message:
-    "My name is Gokul. I’m currently enrolled in a four semeter graduate certificate program at Conestoga College(Waterloo Campus), ON - Canada. I have a Bachelors degree in Information Technology. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "My name is Gokul. I’m currently enrolled in a four semester graduate certificate program at Conestoga College(Waterloo Campus), ON - Canada. I have a Bachelors degree in Information Technology. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
 };
 
 const repos = {
