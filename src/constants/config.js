@@ -133,8 +133,8 @@ const techStack = [
 
 const toolStack = [
   {
-    NAME: "Linux",
-    COMPONENT: "SiLinux",
+    NAME: "Adobe XD",
+    COMPONENT: "SiAdobexd",
   },
   {
     NAME: "Visual Studio",
@@ -147,6 +147,14 @@ const toolStack = [
   {
     NAME: "Eclipse",
     COMPONENT: "SiEclipseide",
+  },
+  {
+    NAME: "Xcode",
+    COMPONENT: "SiXcode",
+  },
+  {
+    NAME: "Android Studio",
+    COMPONENT: "SiAndroidstudio",
   },
   {
     NAME: "Jira",
@@ -165,12 +173,24 @@ const toolStack = [
     COMPONENT: "DiBitbucket",
   },
   {
+    NAME: "Azure Devops",
+    COMPONENT: "SiAzuredevops",
+  },
+  {
     NAME: "Postman",
     COMPONENT: "SiPostman",
   },
   {
     NAME: "Heroku",
     COMPONENT: "SiHeroku",
+  },
+  {
+    NAME: "Netlify",
+    COMPONENT: "SiNetlify",
+  },
+  {
+    NAME: "Linux",
+    COMPONENT: "SiLinux",
   },
 ];
 

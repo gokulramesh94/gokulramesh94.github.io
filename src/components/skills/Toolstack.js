@@ -10,6 +10,11 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
+  SiAdobexd,
+  SiXcode,
+  SiAndroidstudio,
+  SiAzuredevops,
+  SiNetlify,
 } from "react-icons/si";
 import { toolStack } from "../../constants/config";
 
@@ -25,6 +30,11 @@ const Toolstack = () => {
     SiVisualstudiocode,
     SiPostman,
     SiHeroku,
+    SiAdobexd,
+    SiXcode,
+    SiAndroidstudio,
+    SiAzuredevops,
+    SiNetlify,
   };
 
   return (
