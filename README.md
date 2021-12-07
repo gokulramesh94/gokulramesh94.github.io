@@ -40,11 +40,12 @@ Once you have everything installed, you need to do the following,
    ```sh
    git clone git@github.com:gokulramesh94/gokulramesh94.github.io.git
    ```
-2. Install dependencies.
+2. Checkout the develop branch for the latest code.   
+3. Install dependencies.
    ```sh
    npm install
    ```
-3. Compiles and hot-reloads for development.
+4. Compiles and hot-reloads for development.
 
    ```sh
    npm start
