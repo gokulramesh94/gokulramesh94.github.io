@@ -12,17 +12,17 @@ html {
 
 body {
   margin: 0;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   background-color: $theme-primary-dark !important;
   color: $theme-light-grey;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
@@ -167,6 +167,7 @@ code {
 
 #aboutme {
   background-color: $theme-primary-dark !important;
+  padding-bottom: 10rem !important;
   .profilepicture {
     width: 100%;
     height: auto;
@@ -176,7 +177,8 @@ code {
     align-items: center;
     .about-message {
       line-height: 36px;
-      padding: 0 2rem;
+      padding: 0 0 0 6rem;
+      text-align: justify;
     }
   }
 }
