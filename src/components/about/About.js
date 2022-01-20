@@ -1,5 +1,5 @@
-import React from "react";
-import { about } from "../../constants/config";
+import React from 'react';
+import { about } from '../../constants/config';
 
 const About = () => {
   //const heading = about.heading;
@@ -10,8 +10,8 @@ const About = () => {
   return (
     <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid">
-        <div className="row">
-          <div className="col-3 d-none d-lg-block align-self-center">
+        <div className="row justify-content-center">
+          <div className="col-lg-3 col-md-4 col-sm-6 col-6 align-self-center profile-pic-wrapper">
             <img
               className="profilepicture border rounded-circle"
               src={link}
