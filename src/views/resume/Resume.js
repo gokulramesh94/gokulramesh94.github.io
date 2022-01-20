@@ -1,7 +1,7 @@
-import React from "react";
-import CustomResume from "../../assets/pdf/Gokul-Resume.pdf";
-import NavBar from "../navbar/Navbar";
-import "./Resume.scss";
+import React from 'react';
+import CustomResume from '../../assets/pdf/Gokul-Resume.pdf';
+import NavBar from '../../components/navbar/Navbar';
+import './Resume.scss';
 
 const Resume = () => {
   return (
@@ -16,7 +16,7 @@ const Resume = () => {
         >
           <div>
             Oops! Looks like your browser does not have a PDF plugin to view the
-            resume. Instead, You can{" "}
+            resume. Instead, You can{' '}
           </div>
           <div className="button">
             <a href={CustomResume}>Download Resume</a>

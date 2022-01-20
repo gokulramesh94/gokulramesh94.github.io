@@ -1,11 +1,11 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../assets/img/landing-page-design@2x.png";
-import About from "../about/About";
-import Skills from "../skills/Skills";
-import NavBar from "../navbar/Navbar";
-import Type from "./Type";
-import "./Home.scss";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import homeLogo from '../../assets/img/landing-page-design@2x.png';
+import About from '../../components/about/About';
+import Skills from '../../components/skills/Skills';
+import NavBar from '../../components/navbar/Navbar';
+import Type from './Type';
+import './Home.scss';
 
 function Home() {
   return (
@@ -26,9 +26,9 @@ function Home() {
 
               <div
                 style={{
-                  padding: "30px 50px 0",
+                  padding: '30px 50px 0',
                   letterSpacing: 1.25,
-                  textAlign: "left",
+                  textAlign: 'left'
                 }}
               >
                 <Type />

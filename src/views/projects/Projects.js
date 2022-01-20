@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from "react";
-import Container from "react-bootstrap/Container";
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Row from "react-bootstrap/Row";
-import NavBar from "../navbar/Navbar";
-import ProjectCard from "./ProjectCard";
-import Filter from "./Filter";
-import { work } from "../../constants/config";
-import "./Projects.scss";
+import React, { useState, useEffect } from 'react';
+import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Row from 'react-bootstrap/Row';
+import NavBar from '../../components/navbar/Navbar';
+import ProjectCard from './ProjectCard';
+import Filter from './Filter';
+import { work } from '../../constants/config';
+import './Projects.scss';
 
 const Project = () => {
   const [projects, setProjects] = useState([]);
-  const [activeFilter, setActiveFilter] = useState("show-all");
+  const [activeFilter, setActiveFilter] = useState('show-all');
 
   const { CODEPEN, PROJECTS, FILTERS } = work;
 

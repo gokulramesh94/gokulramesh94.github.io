@@ -1,8 +1,8 @@
-import React from "react";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import Image from "../Image/Image";
-import Skeleton from "react-loading-skeleton";
+import React from 'react';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import Image from '../../components/Image/Image';
+import Skeleton from 'react-loading-skeleton';
 
 const ProjectCard = ({ project }) => {
   const { TITLE, DESCRIPTION, SITE_URL, REPO_URL, IMAGE, TECH_STACK } = project;
@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
           <div>
             <Card.Title as="h5">{TITLE || <Skeleton />} </Card.Title>
             <Card.Text>
-              {!DESCRIPTION ? "" : DESCRIPTION || <Skeleton count={3} />}{" "}
+              {!DESCRIPTION ? '' : DESCRIPTION || <Skeleton count={3} />}{' '}
             </Card.Text>
           </div>
           <div className="card-footer-section">
@@ -50,7 +50,7 @@ const ProjectCard = ({ project }) => {
                     return (
                       <span key={item}>
                         {item}
-                        {index !== TECH_STACK.length - 1 ? ", " : null}
+                        {index !== TECH_STACK.length - 1 ? ', ' : null}
                       </span>
                     );
                   })}

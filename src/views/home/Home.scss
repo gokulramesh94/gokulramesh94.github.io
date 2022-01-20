@@ -1,4 +1,4 @@
-@import "../../scss/variables";
+@import '../../scss/variables';
 
 /* --------- */
 /* Home section */
@@ -121,6 +121,19 @@ $image-gradient: linear-gradient(
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
+  }
+}
+
+@media (max-width: $tab-big) {
+  #aboutme {
+    .profile-pic-wrapper {
+      margin-bottom: 4rem;
+    }
+    .col-lg-9 {
+      .about-message {
+        padding: 0 2rem;
+      }
+    }
   }
 }
 

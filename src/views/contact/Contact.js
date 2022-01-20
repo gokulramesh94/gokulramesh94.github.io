@@ -1,5 +1,5 @@
-import React from "react";
-import NavBar from "../navbar/Navbar";
+import React from 'react';
+import NavBar from '../../components/navbar/Navbar';
 import {
   FaCodepen,
   FaEnvelope,
@@ -7,9 +7,9 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedin,
-  FaTwitter,
-} from "react-icons/fa";
-import "./Contact.scss";
+  FaTwitter
+} from 'react-icons/fa';
+import './Contact.scss';
 
 const Contact = () => {
   return (
