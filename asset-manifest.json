@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.20b9b862.chunk.css",
-    "main.js": "/static/js/main.3d7a8beb.chunk.js",
-    "main.js.map": "/static/js/main.3d7a8beb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a9d30c3c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a9d30c3c.js.map",
-    "static/js/2.64c46757.chunk.js": "/static/js/2.64c46757.chunk.js",
-    "static/js/2.64c46757.chunk.js.map": "/static/js/2.64c46757.chunk.js.map",
+    "main.js": "/static/js/main.a026ffc0.chunk.js",
+    "main.js.map": "/static/js/main.a026ffc0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5d0acd8d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5d0acd8d.js.map",
+    "static/js/2.a7540fd5.chunk.js": "/static/js/2.a7540fd5.chunk.js",
+    "static/js/2.a7540fd5.chunk.js.map": "/static/js/2.a7540fd5.chunk.js.map",
     "static/css/3.e7020f1c.chunk.css": "/static/css/3.e7020f1c.chunk.css",
-    "static/js/3.b45fba0a.chunk.js": "/static/js/3.b45fba0a.chunk.js",
-    "static/js/3.b45fba0a.chunk.js.map": "/static/js/3.b45fba0a.chunk.js.map",
+    "static/js/3.1cc3af37.chunk.js": "/static/js/3.1cc3af37.chunk.js",
+    "static/js/3.1cc3af37.chunk.js.map": "/static/js/3.1cc3af37.chunk.js.map",
     "static/js/4.8308dfea.chunk.js": "/static/js/4.8308dfea.chunk.js",
     "static/js/4.8308dfea.chunk.js.map": "/static/js/4.8308dfea.chunk.js.map",
     "index.html": "/index.html",
     "static/css/3.e7020f1c.chunk.css.map": "/static/css/3.e7020f1c.chunk.css.map",
     "static/css/main.20b9b862.chunk.css.map": "/static/css/main.20b9b862.chunk.css.map",
-    "static/js/2.64c46757.chunk.js.LICENSE.txt": "/static/js/2.64c46757.chunk.js.LICENSE.txt",
+    "static/js/2.a7540fd5.chunk.js.LICENSE.txt": "/static/js/2.a7540fd5.chunk.js.LICENSE.txt",
     "static/js/4.8308dfea.chunk.js.LICENSE.txt": "/static/js/4.8308dfea.chunk.js.LICENSE.txt",
     "static/media/Gokul-Resume.9124c1c9.pdf": "/static/media/Gokul-Resume.9124c1c9.pdf",
     "static/media/baby-kobe.c7dbdd33.gif": "/static/media/baby-kobe.c7dbdd33.gif",
@@ -39,9 +39,9 @@
     "static/media/whimsical-mood-board.91ca4d6a.gif": "/static/media/whimsical-mood-board.91ca4d6a.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9d30c3c.js",
+    "static/js/runtime-main.5d0acd8d.js",
     "static/js/4.8308dfea.chunk.js",
     "static/css/main.20b9b862.chunk.css",
-    "static/js/main.3d7a8beb.chunk.js"
+    "static/js/main.a026ffc0.chunk.js"
   ]
 }
