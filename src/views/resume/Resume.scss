@@ -2,6 +2,7 @@
 
 #resume {
   margin-top: 6rem;
+  min-height: calc(100vh - 60px - 6rem);
   .navbar {
     background-color: $theme-card !important;
   }
