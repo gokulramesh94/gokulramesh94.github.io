@@ -1,27 +1,29 @@
 import React from 'react';
 import CustomResume from '../../assets/pdf/Gokul-Resume.pdf';
 import NavBar from '../../components/navbar/Navbar';
+
+import { Viewer } from '@react-pdf-viewer/core';
+import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import '@react-pdf-viewer/default-layout/lib/styles/index.css';
+import { Worker } from '@react-pdf-viewer/core';
+
 import './Resume.scss';
 
 const Resume = () => {
+  const defaultLayoutPluginInstance = defaultLayoutPlugin();
+
   return (
     <div id="resume">
       <NavBar />
       <div className="resume-wrapper">
-        <object
-          data={CustomResume}
-          type="application/pdf"
-          width="100%"
-          height="1024px"
-        >
-          <div>
-            Oops! Looks like your browser does not have a PDF plugin to view the
-            resume. Instead, You can{' '}
-          </div>
-          <div className="button">
-            <a href={CustomResume}>Download Resume</a>
-          </div>
-        </object>
+        <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
+          <Viewer
+            theme="dark"
+            fileUrl={CustomResume}
+            plugins={[defaultLayoutPluginInstance]}
+          />
+        </Worker>
       </div>
     </div>
   );
