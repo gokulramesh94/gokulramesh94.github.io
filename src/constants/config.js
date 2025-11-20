@@ -1,4 +1,4 @@
-import ProfilePic from '../assets/img/gokul.jpg';
+import ProfilePic from '../assets/img/Gokul.jpg';
 
 //projects gif
 import TecWorkshop from '../assets/img/projects/tec-workshop.gif';

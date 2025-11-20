@@ -1,13 +1,11 @@
 import React from 'react';
-import CustomResume from '../../assets/pdf/Gokul-Resume.pdf';
+import CustomResume from '../../assets/pdf/Gokul_Ramesh_Babu.pdf';
 import NavBar from '../../components/navbar/Navbar';
-
 import { Viewer } from '@react-pdf-viewer/core';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 import { Worker } from '@react-pdf-viewer/core';
-
 import './Resume.scss';
 
 const Resume = () => {
