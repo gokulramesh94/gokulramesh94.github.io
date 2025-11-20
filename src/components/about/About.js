@@ -5,19 +5,27 @@ const About = () => {
   //const heading = about.heading;
   const message = about.message;
   const link = about.imageLink;
-  const imgSize = about.imageSize;
 
   return (
     <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid">
         <div className="row justify-content-center">
           <div className="col-lg-3 col-md-4 col-sm-6 col-6 align-self-center profile-pic-wrapper">
-            <img
+            {/* <img
               className="profilepicture border rounded-circle"
               src={link}
               alt="profilepicture"
               width={imgSize}
               height={imgSize}
+            /> */}
+            <div
+              style={{
+                backgroundImage: `url(${link})`,
+                height: 300,
+                width: 300,
+                borderRadius: '50%',
+                backgroundSize: 'cover'
+              }}
             />
           </div>
 
