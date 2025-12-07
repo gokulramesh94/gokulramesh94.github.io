@@ -21,8 +21,7 @@ const About = () => {
             <div
               style={{
                 backgroundImage: `url(${link})`,
-                height: 300,
-                width: 300,
+                aspectRatio: '1/1',
                 borderRadius: '50%',
                 backgroundSize: 'cover'
               }}
